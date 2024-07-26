@@ -43,7 +43,7 @@ if (document.getElementById("texto").value.length != 0) {
     tituloMensaje.textContent = "Texto Encriptado";
     document.getElementById("palabra__mensaje").textContent = "Texto desencriptado con éxito";
     ("palabra__parrafo").textContent = "";
-    muneco.src = "./recursos/imagenes/Muñeco.png";
+    muneco.src = "./recursos/imagenes/Muneco.png";
 }else{
     muneco.src = "./recursos/imagenes/ahah.gif";
     tituloMensaje.textContent = "No hay mensaje";
